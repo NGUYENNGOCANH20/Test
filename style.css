@@ -1,0 +1,111 @@
+.Sidebar {
+    width: 150px;
+    display: table-column;
+    position: absolute;
+    height: 935px;
+    background: #191718;
+}
+
+    .Sidebar table {
+        width: 150px;
+        height: 935px;
+        background: #191718;
+    }
+
+    .Sidebar th, tr {
+        display: block;
+        height: 44px;
+        position: static;
+    }
+
+    .Sidebar p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-align: left;
+        margin-top: 14px;
+        margin-left: 16px;
+    }
+
+.Content {
+    width: 1768px;
+    display: block;
+    position: absolute;
+    left: 165px;
+}
+
+    .Content #logoNCC {
+        width: 310px;
+        height: 122px;
+        background: url(logoNCC.png);
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.group1 {
+        width: 1510px;
+        height: 210px;
+        background: #EFEFEF;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        border: 38px;
+    }
+    .group1 .x1 {
+        padding-top: 38px;
+    }
+        .group1 .x1 p {
+            font-size: 21px;
+            text-align: center;
+            margin-top: 0px;
+        }
+    .group1 .x2 {
+        padding-top: 18px;
+        margin-top: 0px;
+        display: contents;
+    }
+        .group1 .x2 p {
+            font-size: 18.75px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+.coloums {
+    width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 78px;
+}
+    .coloums img {
+        width: 128px;
+        height: 128px;
+        display:inline;
+    }
+.coloums1, .coloums2, .coloums3 {
+    width: 30%;
+    padding: 0px;
+    display: inline-block;
+}
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    display:inherit;
+    height:28px;
+
+}
+.coloums1 p {
+    display: inline;
+    position:absolute;
+    width:326px;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 38px;
+}

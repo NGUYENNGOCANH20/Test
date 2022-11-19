@@ -1,104 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-<h2>CSS Layout Float</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
-
-<header>
-  <h2>Cities</h2>
-</header>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
-</section>
-
-<footer>
-  <p>Footer</p>
-</footer>
-
+    <div class="Sidebar">
+        <table border="1">
+            <tr><th><p>Home</p></th></tr>
+            <tr><th><p>Services</p></th></tr>
+            <tr><th><p>News</p></th></tr>
+            <tr><th><p>Blog</p></th></tr>
+            <tr><th><p>Contact</p></th></tr>
+        </table>
+    </div>
+    <div class="Content">
+        <div class="logo" id="logoNCC"></div>
+        <div class="group1">
+            <div class="x1">
+                <p><b>Lorem ipsum dolor sit asmet?</b></p>
+            </div>
+            <div class="x2">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat. Vestibulum auctor pellentesque sem, eu
+                    <br />posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia
+                    <br />ante eros ut mi. Morbi vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo eleifend convallis. Quisque
+                    <br />suscipit maximus vestibulum. Phasellus congue mollis orci, sit amet luctus augue tristique eu. Donec vulputate odio neque, sed semper
+                    <br />turpis pellentesque a.
+                </p>
+            </div>
+        </div>
+        <div class="coloums">
+            <div class="coloums1">
+                <div class="title">
+                    <h3 style="font-size:28px;text-align:center;padding-top:40px;">Lorem ipsum dolor sit amet</h3>
+                </div>
+                <img id="icon1" src="./css-icon 1.png" />
+                <p style="font-size: 19px; text-align: center;padding-bottom:38px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at
+                </p>
+                <p style="font-size: 19px; text-align: center;padding-bottom:38px;">
+                    ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
+                </p>
+            </div>
+            <div class="coloums2">
+                <div>
+                    <img id="icon2" src="./html-icon 1.png" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at
+                    </p>
+                </div>
+                <p style="font-size: 19px; text-align: center;padding-bottom:38px;">
+                    ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
+                </p>
+            </div>
+            <div class="coloums3">
+                <div class="title">
+                    <p style="font-size:28px;text-align:center;padding-top:40px;">Lorem ipsum dolor sit amet</p>
+                </div>
+                <img id="icon3" src="./url-icon 1.png" />
+                <p style="font-size: 19px; text-align: center;padding-bottom:38px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at
+                </p>
+                <p style="font-size: 19px; text-align: center;padding-bottom:38px;">
+                    ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            Copyright © 2021
+        </div>
+    </div>
 </body>
 </html>
 
