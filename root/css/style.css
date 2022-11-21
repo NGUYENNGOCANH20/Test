@@ -40,7 +40,7 @@
     .Content #logoNCC {
         width: 310px;
         height: 122px;
-        background: url(logoNCC.png);
+        background: url(./img/logoNCC.png);
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
@@ -99,13 +99,64 @@
     color: #000000;
     display:inherit;
     height:28px;
+}
+.coloums1{
+    position:absolute;
+    left:126px;
 
 }
-.coloums1 p {
-    display: inline;
-    position:absolute;
-    width:326px;
-    font-size: 19px;
-    text-align: center;
-    padding-bottom: 38px;
+.coloums2 {
+    position: absolute;
+    left: 646px;
 }
+.coloums3 {
+    position: absolute;
+    left: 1166px;
+}
+.para {
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    width: 326px;
+    margin-top: 46px;
+    padding-top:0px;
+}
+.para p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+img{
+    margin-top:46px;
+    padding-left:0px;
+}
+.para_container{
+    display:block;
+}
+.para_container p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer {
+    position:absolute;
+    top:856px;
+    width:79px
+}
+    .footer p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #3E3E3E;
+        width:125px;
+        margin-top:30px;
+        margin-left:129px;
+    }
